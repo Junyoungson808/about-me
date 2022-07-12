@@ -1,13 +1,13 @@
 html {
-  background-color: #C6D8FF;  
+  background-color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;  
 }
 
 h1 {
   font-size: 3vw;
-  color:#000000;
-  background-color: #a9fbc3;
-  margin: 5px;
-  padding: 15px;
+  color:#71A9F7;
+  margin-bottom: 15px;
   border-radius: ;
   border-inline-start-style: ridge;
 
@@ -16,12 +16,7 @@ h1 {
 
 body {
   color: #000000;
-  background-color: #595F72;
-  margin: 10px;
   text-align: justify;
-  ;
-
-  
   
 }
 

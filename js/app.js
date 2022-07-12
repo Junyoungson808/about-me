@@ -59,4 +59,4 @@ if(qFive === 'y' || qFive === 'yes'){
   alert('Answer yes or no');
 }
 
-let goodbye = prompt(`Thank you ${userName} for visiting my site! Hope you enjoyed your stay! see you again soon. `);
+let goodbye = prompt(`Thank you ${userName} for visiting my site! Hope you enjoyed your stay! see you again soon.`);

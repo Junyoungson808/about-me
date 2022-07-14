@@ -7,9 +7,12 @@ html {
 h1 {
   font-size: 3vw;
   color:#71A9F7;
+  background-color: bisque;
   margin-bottom: 15px;
-  border-radius: ;
-  border-inline-start-style: ridge;
+  text-align: center;
+  border: solid 2px black;
+  
+  
 
 }
 
@@ -18,24 +21,34 @@ main {
   color: #000000;
   width: 80%;
   margin: auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  text-align: justify;
   
 }
 
-h3 {
+p {
+  margin: 5%;
+ 
+}
+
+h2, h3 {
   border: 2px solid black;
-  width: 50%;
-  /* margin: auto; */
+  width: 30%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+  padding-left: 40px;
 
 }
 
 ol {
   list-style-type: decimal;
-  width: 30%;
-  margin: auto;
+  margin-left: 350px;
 }
 
 ul {
   list-style-type: disc;
-  margin-left: 55px;
+  margin-left: 350px;
+  
 }

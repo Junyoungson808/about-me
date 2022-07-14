@@ -14,9 +14,28 @@ h1 {
 }
 
 
-body {
+main {
   color: #000000;
-  text-align: justify;
+  width: 80%;
+  margin: auto;
+  border: 2px solid red;
   
 }
 
+h3 {
+  border: 2px solid black;
+  width: 50%;
+  /* margin: auto; */
+
+}
+
+ol {
+  list-style-type: decimal;
+  width: 30%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 55px;
+}

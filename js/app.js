@@ -3,38 +3,38 @@
 let score = 0;
 
 let userName = prompt('What is your name?');
-  console.log(`Hello ${userName}, welcome to my site!`);
-  alert(`Welcome to my site ${userName}, please answer these questions!`);
+console.log(`Hello ${userName}, welcome to my site!`);
+alert(`Welcome to my site ${userName}, please answer these questions!`);
 
-let qOne = prompt('Do I like to travel?').toLowerCase();
+let qOne = prompt('Do I like cats?').toLowerCase();
 
 if(qOne === 'y' || qOne === 'yes'){
-  alert('You are right! ' + userName);
+  alert('Yes I do ' + userName);
   score++;
 } else if(qOne === 'n' || qOne === 'no'){
-  alert('You are wrong');
+  alert('Hope you change your mind.... Cats are awesome!');
 } else{
   alert('Answer yes or no');
 }
 
-let qTwo = prompt('Did I serve in the Military?');
+let qTwo = prompt('Do I enjoy street tacos?');
 
 if(qTwo === 'y' || qTwo === 'yes'){
-  alert('You are right!');
+  alert('Heck yeah I do!!');
   score++;
 } else if(qTwo === 'n' || qTwo === 'no'){
-  alert('You are wrong');
+  alert('More for me!');
 } else{
   alert('Answer yes or no');
 }
 
-let qThree = prompt('Am I big into model kits?');
+let qThree = prompt('Do I like Legos/model kits/collecting?');
 
 if(qThree === 'y' || qThree === 'yes'){
-  alert('You are right! I enjoy model kits preferably of robots and cars!');
+  alert('Yes I do, i got a problem collecting things...');
   score++;
 } else if(qThree === 'n' || qThree === 'no'){
-  alert('You are wrong');
+  alert('');
 } else{
   alert('Answer yes or no');
 }
@@ -102,4 +102,4 @@ alert(`These are the possible quesses: ${favEdmArt}`);
 alert(`You scored ${score}`);
 
 
-let goodbye = prompt(`Thank you ${userName} for visiting my site! Hope you enjoyed your stay! see you again soon.`);
+alert(`Thank you ${userName} for visiting my site! Hope you enjoyed your stay! see you again soon.`);
